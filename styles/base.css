@@ -325,6 +325,11 @@ footer a {
     
 }
 
+footer img {
+    width: 25px;
+    height: auto;
+}
+
 /* BACK TO THE TOP BUTTON */
 footer svg {
     width: 60px;

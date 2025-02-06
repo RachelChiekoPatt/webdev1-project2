@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="512" height="512"><svg version="1.1" id="SvgjsSvg1054" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6A81A5;}
+</style>
+<g>
+	<path class="st0" d="M394.1,211.3L287.9,317.5L482.4,512h9.9c10.9,0,19.7-7.6,19.7-17.1v-0.3c-0.2-9.3-9-16.7-19.7-16.7h-19.7
+		c-21.8,0-39.4-15.3-39.4-34.1C433.2,443.7,397.8,259.3,394.1,211.3z"></path>
+	<polygon class="st0" points="418.7,512 256.1,349.4 93.4,512 	"></polygon>
+	<path class="st0" d="M118.2,136.5h275.7c21.8,0,39.4-15.3,39.4-34.1V17.1c0-9.4-8.8-17.1-19.7-17.1c-10.9,0-19.7,7.6-19.7,17.1
+		v51.2h-39.4V34.1c0-18.9-17.6-34.1-39.4-34.1c-21.8,0-39.4,15.3-39.4,34.1v34.1h-39.4V34.1c0-18.9-17.6-34.1-39.4-34.1
+		s-39.4,15.3-39.4,34.1v34.1h-39.4V17.1c0-9.4-8.8-17.1-19.7-17.1S78.8,7.6,78.8,17.1v85.3C78.8,121.3,96.4,136.5,118.2,136.5z"></path>
+	<path class="st0" d="M368.8,173c-4.4-1.5-9.3-2.3-14.3-2.3H157.5c-5,0-9.8,0.8-14.2,2.3l112.8,112.8L368.8,173z"></path>
+	<path class="st0" d="M19.7,512h10.1l194.5-194.5L117.9,211.1c-3.5,47.7-39.1,232.6-39.1,232.6c0,18.9-17.6,34.1-39.4,34.1H19.7
+		C8.8,477.9,0,485.5,0,494.9C0,504.4,8.8,512,19.7,512z"></path>
+</g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
