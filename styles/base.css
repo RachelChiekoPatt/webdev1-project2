@@ -11,6 +11,7 @@ body {
 
 main {
     line-height: 25px;
+    margin: .5rem;
 }
 
 header {
@@ -57,20 +58,68 @@ h2 {
 }
 
 
-/* TOP NAVIGATION BAR - SHARED*/
+
+/* SVG - SHARED */
+svg {
+    width: 50px;
+    height: 50px;
+    z-index: 110;
+}
 
 
+/* QUOTES - SHARED */
+.quote {
+    text-align: center;
+    color: black;
+    font-family: "Libre Carlson Display", serif;
+    padding: 0 .2rem;
+    font-size: 16px;
+ }
+
+
+
+
+
+
+
+/* LINKS - SHARED*/
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+ a:focus {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(121, 136, 157);
+    padding: .5rem;
+    border-radius: 5px;
+ }
+
+
+
+
+
+
+
+
+/* NAVIGATION BAR - SHARED*/
 .nav-list li {
-    color: rgb(101, 172, 227);
     background-color: white;
-    margin: 0;
-    padding: 0;
-    border-radius: 20px;
+    margin: .2rem;
+    padding: .5rem;
+    border-radius: 0px;
     transition: background-color 0s ease;
 }
-.nav-list {
-    background-color: white;
-    transition: background-color 0s ease;
+
+.nav-list a {
+    padding: 1rem 3rem;
 }
 
 .main-nav {
@@ -96,6 +145,7 @@ h2 {
 }
 
 #main-nav-list {
+    background-color: white;
     height: 0;
     overflow: hidden;
     transition: all .5s ease;
@@ -119,14 +169,8 @@ h2 {
    padding: .5rem;
 }
 
-svg {
-    width: 50px;
-    height: 50px;
-    z-index: 110;
-}
 
-
-/* NAVIGATION Media Query*/
+/* NAVIGATION MEDIA QUERY */
 @media (min-width: 50em) {
     
     #main-nav-btn {
@@ -140,7 +184,7 @@ svg {
         position: static;
         justify-content: space-evenly;
         align-items: center;
-        padding: 1rem;
+        padding: 0;
     }
 
     #main-nav-list.toggled {
@@ -148,22 +192,21 @@ svg {
         flex-direction: row;
     }
 }
-/* end*/
+/* end of Media Query*/
 
-.quote {
-    text-align: center;
-    color: black;
-    
-    padding: 0 .2rem;
-    font-size: 16px;
- }
+
+
+
+
+
+
 
 
 /* PAGE LAYOUT - SHARED on pages EXPLORE and FOOD*/
 
 .things,
 .things2 {
-    margin: 1rem .5rem;
+    margin: 1rem 0;
 }
 
 .things p,
@@ -183,7 +226,7 @@ svg {
 }
 
 
-/* Media Query - SHARED on pages EXPLORE and FOOD*/
+/* MEDIA QUERY FOR  PAGE LAYOUT - SHARED on pages EXPLORE and FOOD*/
 
 @media (min-width: 50em) {
 
@@ -257,28 +300,13 @@ svg {
     }
    
 }
-
-
-
-/* LINKS - SHARED*/
-a:link,
-a:visited {
-    text-decoration: none;
-    color: black;
-   
-}
-
- a:hover,
- a:focus,
- a:active {
-    text-decoration: none;
-    color: black;
- }
+/* END of MEDIA QUERY */
 
 
 
 
- /* FOOTER */
+
+/* FOOTER */
 
  footer {
     margin: 0;
@@ -297,7 +325,7 @@ footer a {
     
 }
 
-/* Back to the Top Button*/
+/* BACK TO THE TOP BUTTON */
 footer svg {
     width: 60px;
     height: 60px;

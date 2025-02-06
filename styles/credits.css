@@ -1,3 +1,28 @@
+
+table {
+    margin: 5rem;
+}
+table,
+th,
+td {
+    padding: 1rem;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid black;
+   border-collapse: collapse;
+ }
+ .main-h {
+    background-color: rgb(208, 198, 177);
+ }
+
+th {
+    background-color: rgb(236, 227, 206);
+}
+td {
+    background-color: white;
+}
+
 footer {
     background-color: rgb(208, 198, 177);
 }
+
