@@ -63,11 +63,13 @@ h2 {
 .nav-list li {
     color: rgb(101, 172, 227);
     background-color: white;
-    margin: 0;
-    padding: 0;
-    border-radius: 20px;
+    margin: .2rem;
+    padding: .8rem;
+    border-radius: 10px;
     transition: background-color 0s ease;
 }
+
+
 .nav-list {
     background-color: white;
     transition: background-color 0s ease;
@@ -261,18 +263,23 @@ svg {
 
 
 /* LINKS - SHARED*/
+a:active,
 a:link,
 a:visited {
     text-decoration: none;
-    color: black;
-   
+    color: black; 
 }
 
- a:hover,
- a:focus,
- a:active {
+a:hover {
+    font-weight: 600;
+}
+
+ a:focus {
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: rgb(121, 136, 157);
+    padding: .5rem;
+    border-radius: 5px;
  }
 
 
@@ -307,3 +314,4 @@ footer a:hover svg {
     transform: scale(1.5);
 	transition: all .5s ease;
 }
+

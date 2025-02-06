@@ -207,10 +207,61 @@ caption {
     color: white;
     text-align: center;
  }
+
  caption:hover {
     transform: scale(1.1);
 	transition: all .6s ease;
 }
+
+/*Submit Form*/
+
+.submit-form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: rgb(214, 223, 226);
+    display: flex;
+    flex-direction: column; 
+    padding: 1rem; 
+    margin-bottom: 2rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.555); 
+    width: 100%; 
+    max-width: 30rem;
+    border-radius: 20px;
+}
+label {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+textarea {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.submitbtn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.submitbtn {
+    max-width: 5rem;
+}
+
+/*.submitbtn:hover,
+.submitbtn:focus,
+.submitbtn:active {
+    color: white;
+    background-color: rgb(42, 83, 118);
+}*/
+
+/*Footer*/
 
 footer {
     background-color: rgb(214, 223, 226);
