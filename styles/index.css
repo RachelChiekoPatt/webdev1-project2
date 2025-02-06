@@ -1,0 +1,217 @@
+main {
+    margin: .5rem;;
+}
+/*BANNER VIDEO*/
+
+video {
+    margin: 0;
+    padding: 0;  
+}
+
+.video-wrapper > video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ }
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+ /* Hotels*/
+.hotels {
+   color: black;
+   padding-inline-start: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .hotels h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+ }
+
+.hotels ul {
+    padding-inline-start: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.hotels p {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgb(214, 223, 226);
+
+}
+
+/*hotel background images*/
+.hotels li {
+    position: absolute;
+    top: 0;
+    background: rgba(255, 255, 255, 0.81);
+    color: #000000;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    text-align: center;  
+}
+
+ .hotels li:hover  {
+    text-decoration: underline;
+    transform: scale(1.1);
+	transition: all .6s ease;
+ }
+ 
+.img-container,
+.img-container2 {
+    position: relative;
+    width: 100%;
+}
+
+.img-container:hover,
+.img-container2:hover,
+.hotels li {
+    opacity: 1;
+}
+
+
+/* media query for Hotels*/
+
+@media (min-width: 50em) {
+
+    .hotels p {
+        margin: 0;
+        padding: 2rem 4rem;
+        align-content: center;
+        font-size: 18px;
+    }
+
+    .hotels img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .hotels h2 {
+        font-size: 30px;
+    }
+    .hotels h3 {
+        font-size: 25px;
+    }
+
+    .hotels ul{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-gap: 2rem;
+        margin: 1rem;
+    }
+
+    .img-container {
+        grid-column: 1/5;
+        grid-row: 1/5;
+    }
+
+    .ibis {
+        grid-column: 5/9;
+        grid-row: 1/5;         
+    }
+
+    .img-container2 {
+        grid-column: 1/5;
+        grid-row: 6/10;
+        
+    }
+
+    .caledonian {
+        grid-column: 5/9;
+        grid-row: 6/10;
+    }    
+        
+}
+/* End of media query*/
+
+
+
+ /* airbnb and booking.com icons*/
+.airbnb-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    padding: .5rem;
+}
+
+.airbnb,
+.booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+ .airbnb:hover,
+ .booking:hover {
+    transform: scale(1.1);
+	transition: all .5s ease;
+ } 
+
+
+
+
+ /*  Transit */
+
+.transit {
+    background-image: url(../images/roads.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+table,
+th,
+td {
+    padding: 1rem;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid black;
+   border-collapse: collapse;
+ }
+
+th {
+    background-color: rgb(214, 223, 226);
+}
+td {
+    background-color: white;
+}
+
+caption {
+    caption-side: bottom;
+ }
+
+ caption {
+    caption-side: bottom;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(214, 223, 226);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+ }
+ caption:hover {
+    transform: scale(1.1);
+	transition: all .6s ease;
+}
+
+footer {
+    background-color: rgb(214, 223, 226);
+}
