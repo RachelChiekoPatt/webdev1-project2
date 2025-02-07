@@ -51,7 +51,6 @@ creditsBtn.addEventListener('mouseout', function(){
 });
 
 
-
 // Menu toggle
 button.addEventListener('click', function(){
     links.classList.toggle('toggled');
