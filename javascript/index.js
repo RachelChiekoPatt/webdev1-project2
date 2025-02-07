@@ -55,3 +55,24 @@ creditsBtn.addEventListener('mouseout', function(){
 button.addEventListener('click', function(){
     links.classList.toggle('toggled');
 });
+
+//Home page for Safari mobile view
+const scrollToTopButton = document.getElementById('scroll-to-top');
+const video = document.getElementById('bannerVideo');
+
+document.addEventListener('DOMContentLoaded', function() {
+    
+    video.playsinline = true;
+    video.autoplay = true;
+    video.loop = true;
+
+    window.addEventListener('scroll', function() {
+        video.controls = false;
+    });
+
+   
+    scrollToTopButton.addEventListener('click', function() {
+        video.controls = false;
+        video.play();
+    });
+});
