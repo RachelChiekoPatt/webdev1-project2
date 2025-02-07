@@ -27,13 +27,7 @@ video {
    justify-content: center;
  }
 
- .hotels h3 {
-    font-size: 20px;
-    margin-bottom: 1rem;
- }
-
-.hotels ul {
-    padding-inline-start: 0;
+.hotel-layout {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -49,9 +43,10 @@ video {
 }
 
 /* HOTEL BACKGROUND IMAGE */
-.hotels li {
+.hotel-layout a {
     position: absolute;
     top: 0;
+    left: 0;
     background: rgba(255, 255, 255, 0.81);
     color: #000000;
     width: 100%;
@@ -63,7 +58,7 @@ video {
     text-align: center;  
 }
 
- .hotels li:hover  {
+ .hotels a:hover  {
     text-decoration: underline;
     transform: scale(1.1);
 	transition: all .6s ease;
@@ -77,7 +72,7 @@ video {
 
 .img-container:hover,
 .img-container2:hover,
-.hotels li {
+.hotels a {
     opacity: 1;
 }
 
@@ -102,11 +97,12 @@ video {
     .hotels h2 {
         font-size: 30px;
     }
+
     .hotels h3 {
         font-size: 25px;
     }
 
-    .hotels ul{
+    .hotel-layout {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(9, 1fr);
@@ -190,6 +186,7 @@ td {
 th {
     background-color: rgb(214, 223, 226);
 }
+
 td {
     background-color: white;
 }
@@ -210,16 +207,12 @@ caption {
 
  caption:hover {
     transform: scale(1.1);
-	transition: all .6s ease;
+	transition: all .5s ease;
 }
 
-<<<<<<< HEAD
 
 
 /* SUBMIT FORM */
-=======
-/*Submit Form*/
->>>>>>> javascript-testing
 
 .submit-form {
     display: flex;
@@ -251,11 +244,8 @@ textarea {
     border-radius: 10px;
 }
 
-<<<<<<< HEAD
 /* SUBMIT FORM BUTTON */
 
-=======
->>>>>>> javascript-testing
 .submitbtn-wrapper {
     display: flex;
     justify-content: center;
@@ -265,24 +255,14 @@ textarea {
     max-width: 5rem;
 }
 
-<<<<<<< HEAD
 .submitbtn:hover,
-=======
-/*.submitbtn:hover,
->>>>>>> javascript-testing
 .submitbtn:focus,
 .submitbtn:active {
     color: white;
     background-color: rgb(42, 83, 118);
-<<<<<<< HEAD
 }
 
 /* FOOTER BACKGROUND COLOR */
-=======
-}*/
-
-/*Footer*/
->>>>>>> javascript-testing
 
 footer {
     background-color: rgb(214, 223, 226);

@@ -78,10 +78,6 @@ svg {
 
 
 
-
-
-
-
 /* LINKS - SHARED*/
 a:active,
 a:link,
@@ -111,15 +107,15 @@ a:hover {
 
 /* NAVIGATION BAR - SHARED*/
 .nav-list li {
-    background-color: white;
     margin: .2rem;
     padding: .5rem;
-    border-radius: 0px;
-    transition: background-color 0s ease;
+    border-radius: 0px; 
+    transition: background-color 0.3s ease-in-out;
+    background-color: inherit; 
 }
 
 .nav-list a {
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
 }
 
 .main-nav {
@@ -145,10 +141,8 @@ a:hover {
 }
 
 #main-nav-list {
-    background-color: white;
     height: 0;
     overflow: hidden;
-    transition: all .5s ease;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -158,6 +152,8 @@ a:hover {
     width: 100%;
     position: absolute;
     top: 0;
+    transition: background-color 0.3s ease-in-out;
+    background-color: white; 
     
 }
 
@@ -168,6 +164,8 @@ a:hover {
    top: 0;
    padding: .5rem;
 }
+
+
 
 
 /* NAVIGATION MEDIA QUERY */

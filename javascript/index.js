@@ -7,7 +7,7 @@ const exploreBtn = document.getElementById('explorebtn');
 const creditsBtn = document.getElementById('creditsbtn');
 
 
-//To change colors on navigation bar
+//Colors on navigation bar
 
 function changeNavBackgroundColor(color) {
     
