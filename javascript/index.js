@@ -10,11 +10,14 @@ const creditsBtn = document.getElementById('creditsbtn');
 //To change colors on navigation bar
 
 function changeNavBackgroundColor(color) {
+    
     links.style.backgroundColor = color;
+
     links.querySelectorAll('li').forEach(li => {
         li.style.backgroundColor = color;
     });
 }
+
 
 homeBtn.addEventListener('mouseover', function(){
     changeNavBackgroundColor('rgb(214, 223, 226)');
