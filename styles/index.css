@@ -207,14 +207,19 @@ caption {
     color: white;
     text-align: center;
  }
+
  caption:hover {
     transform: scale(1.1);
 	transition: all .6s ease;
 }
 
+<<<<<<< HEAD
 
 
 /* SUBMIT FORM */
+=======
+/*Submit Form*/
+>>>>>>> javascript-testing
 
 .submit-form {
     display: flex;
@@ -246,8 +251,11 @@ textarea {
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
 /* SUBMIT FORM BUTTON */
 
+=======
+>>>>>>> javascript-testing
 .submitbtn-wrapper {
     display: flex;
     justify-content: center;
@@ -257,14 +265,24 @@ textarea {
     max-width: 5rem;
 }
 
+<<<<<<< HEAD
 .submitbtn:hover,
+=======
+/*.submitbtn:hover,
+>>>>>>> javascript-testing
 .submitbtn:focus,
 .submitbtn:active {
     color: white;
     background-color: rgb(42, 83, 118);
+<<<<<<< HEAD
 }
 
 /* FOOTER BACKGROUND COLOR */
+=======
+}*/
+
+/*Footer*/
+>>>>>>> javascript-testing
 
 footer {
     background-color: rgb(214, 223, 226);
